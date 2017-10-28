@@ -1,5 +1,7 @@
+// import chai, declare should variable
 const should = require('chai').should();
 
+// import adder 
 const adder = require('../adder');
 
 
