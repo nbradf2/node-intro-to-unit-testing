@@ -13,7 +13,7 @@ describe('fizzBuzzer', function() {
     });
   });
   it('should determine if a number is divisible by 5', function() {
-    [5, 10, 15, 20].forEach(function(input) {
+    [5, 10, 20,].forEach(function(input) {
       fizzBuzzer(input).should.equal('buzz');
     });
   });
